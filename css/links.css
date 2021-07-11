@@ -1,0 +1,70 @@
+body {
+   font-family: Delius;
+   text-align: center;
+   background-color: skyblue;
+}
+
+a {
+   text-decoration: none;
+   cursor: pointer;
+   color: #000000bf;
+   font-size: 16px;
+}
+
+.main {
+   max-width: 70%;
+   margin: auto;
+   background-color: #ffffff60;
+   padding: 2%;
+   border-radius: 10px;	
+   margin-top: 20px;
+   border: 1px solid #ffffff80;
+   box-shadow: 0px 0px 3px 0px #ffffff70;
+}
+
+.user-details {
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+}
+
+.user-details h2 {
+   color: #000000bf;
+   font-weight: 100;
+}
+
+.avatar {
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   width: 100px;
+   margin-top: 3%;
+}
+
+.social-icons {
+   float: left;
+   text-align: center;
+   padding-right: 5px;
+}
+
+.linksection {
+   width: 70%;
+   text-align: center;
+   margin: auto;
+   display: block;
+}
+
+.linkbox {
+   padding: 30px;
+   border: 1px solid #ffffff;
+   backdrop-filter: blur(5px);
+   display: block;
+   border-radius: 5px;
+   background-color: #ffffff30;
+   margin-top: 15px;
+}
+
+.linkbox:hover {
+   background-color: #ffffff80;
+}
