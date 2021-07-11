@@ -1,25 +1,28 @@
 body {
    font-family: Delius;
    text-align: center;
-   background-color: skyblue;
+   background-image: url('../images/bg2.png');
+   background-repeat: no-repeat;
+   background-attachment: ;
+   background-position: center;
 }
 
 a {
    text-decoration: none;
    cursor: pointer;
-   color: #000000bf;
+   color: #ffffff;
    font-size: 16px;
 }
 
 .main {
-   max-width: 70%;
+   max-width: 50%;
    margin: auto;
-   background-color: #ffffff60;
+   background-color: #ffffff20;
+   backdrop-filter: blur(5px);
    padding: 2%;
    border-radius: 10px;	
    margin-top: 20px;
-   border: 1px solid #ffffff80;
-   box-shadow: 0px 0px 3px 0px #ffffff70;
+   box-shadow: 0px 0px 5px 0px #00000040;
 }
 
 .user-details {
@@ -30,7 +33,7 @@ a {
 }
 
 .user-details h2 {
-   color: #000000bf;
+   color: #fff;
    font-weight: 100;
 }
 
@@ -49,22 +52,25 @@ a {
 }
 
 .linksection {
-   width: 70%;
+   width: 60%;
    text-align: center;
    margin: auto;
+   padding-top: 20px;
    display: block;
 }
 
 .linkbox {
-   padding: 30px;
-   border: 1px solid #ffffff;
+   padding: 20px;
+   border-top: 1px solid #ffffff;
+   border-right: 1px solid #ffffff;
+   box-shadow: 0px 0px 3px 0px #00000080;
    backdrop-filter: blur(5px);
    display: block;
    border-radius: 5px;
-   background-color: #ffffff30;
+   background-color: #ffffff20;
    margin-top: 15px;
 }
 
 .linkbox:hover {
-   background-color: #ffffff80;
+   background-color: #ffffff60;
 }
