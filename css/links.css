@@ -1,7 +1,7 @@
 body {
    font-family: Delius;
    text-align: center;
-   background-image: url('../images/bg2.png');
+   background-image: url('../images/bg1.jpg');
    background-repeat: no-repeat;
    background-attachment: ;
    background-position: center;
@@ -15,7 +15,8 @@ a {
 }
 
 .main {
-   max-width: 50%;
+   max-width: 100%;
+   width: 50%;
    margin: auto;
    background-color: #ffffff20;
    backdrop-filter: blur(5px);
@@ -73,4 +74,22 @@ a {
 
 .linkbox:hover {
    background-color: #ffffff60;
+}
+
+@media only screen and (max-width: 500px) {
+   .main {
+      width: 100%;
+      padding: 0%;
+      padding-top: 2%;
+      padding-bottom: 5%;
+      border-radius: 10px;
+   }
+   
+   .linksection {
+      width: 80%;
+   }
+   
+   .linkbox {
+      padding: 15px;
+   }
 }
