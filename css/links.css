@@ -31,15 +31,15 @@ a {
 }
 
 .ball2 {
-   width: 200px;
-   height: 200px;
+   width: 3000px;
+   height: 3000px;
    border-radius: 50%;
    background-color: #ff005fbd;
    box-shadow: inset 10px 10px 50px 0px #0000006e;
    z-index: -99;
    position: fixed;
-   bottom: -20%;
-   right: 10%;
+   bottom: -400%;
+   left: 7%;
    padding: 50px;
    margin: 3%;
 }
@@ -54,10 +54,10 @@ a {
    }
    
    .ball2 {
-      width: 100px;
-      height: 100px;
-      right: 0;
-      bottom: 0;
+      width: 700px;
+      height: 700px;
+      left: -17%;
+      bottom: -90%;
    }
 }
 
