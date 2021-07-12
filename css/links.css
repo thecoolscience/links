@@ -99,8 +99,9 @@ a {
 }
 
 .user-details h2 {
-   color: #fff;
+   color: #ffffffcc;
    font-weight: 100;
+   text-shadow: 2px 3px #00000045;
 }
 
 .avatar {
@@ -148,6 +149,7 @@ a {
 .linkbox {
    padding: 20px;
    border: 1px solid #ffffff50;
+   color: #ffffffcc;
    /*box-shadow: inset 0px 0px 3px 0px #00000080;*/
    backdrop-filter: blur(0px);
    display: block;
@@ -168,6 +170,7 @@ a {
 
 .linkbox:hover {
    background-color: #ffffff30;
+   color: #fff;
 }
 
 .linkbox:hover .linkicon {
