@@ -31,8 +31,8 @@ a {
 }
 
 .ball2 {
-   width: 300px;
-   height: 300px;
+   width: 250px;
+   height: 250px;
    border-radius: 50%;
    background-color: #ff005fbd;
    box-shadow: inset 10px 10px 50px 0px #0000006e;
@@ -50,6 +50,21 @@ a {
   height: 50vh;
   border-bottom-left-radius: 50% 75%;
   border-bottom-right-radius: 50% 75%;
+}
+
+@media only screen and (max-width: 1000px) {
+   .ball1 {
+      width: 150px;
+      height: 150px;
+      left: -10%;
+      top: -15%;
+   }
+   
+   .ball2 {
+      width: 200px;
+      height: 200px;
+      right: -15%;
+   }
 }
 
 @media only screen and (max-width: 600px) {
@@ -183,6 +198,16 @@ a {
 
 .linkbox:hover .linkicon {
    color: #fff;
+}
+
+@media only screen and (max-width: 1000px) {
+   .main {
+      width: 80%;
+   }
+   
+   .linksection {
+      width: 80%;
+   }
 }
 
 @media only screen and (max-width: 600px) {
