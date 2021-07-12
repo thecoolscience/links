@@ -156,8 +156,22 @@ a {
    margin-top: 15px;
 }
 
+.linkicon {
+   font-size: 26px;
+   color: #ffffff80;
+   left: 0;
+   float: left;
+   margin-top: -3px;
+   position: absolute;
+   padding-left: 15px;
+}
+
 .linkbox:hover {
    background-color: #ffffff30;
+}
+
+.linkbox:hover .linkicon {
+   color: #fff;
 }
 
 @media only screen and (max-width: 600px) {
