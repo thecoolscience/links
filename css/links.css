@@ -114,8 +114,9 @@ a {
 .socialiconcard {
    width: 60%;
    display: block;
-   background-color: transparent;
+   background-color: #ffffff10;
    border: 1px solid #ffffff20;
+   box-shadow: 0px 0px 3px 0px #00000030;
    margin: auto;
    border-radius: 10px;
 }
